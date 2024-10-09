@@ -1,6 +1,6 @@
 # My Portfolio website
 
-<img width="600" alt="Screen Shot 2566-05-15 at 21 48 49" src="https://github.com/Megabite1997/my-portfolio-reactjs/assets/my-website.png">
+<img width="1433" alt="Screenshot 2567-10-09 at 22 12 35" src="https://github.com/user-attachments/assets/b436565f-e0e7-4588-94a8-1568dd7409de">
 
 
 ## React + TypeScript + Vite
