@@ -10,8 +10,8 @@ const Hero: FC<HeroProps> = ({}) => {
       <div className={styles.content}>
         <h1 className={styles.title}>Hi, I'm Tua</h1>
         <p className={styles.description}>
-          I'm a Frontend Developer with 2 years of experience using ReactJS and
-          TypeScript. Reach out if you would like to learn more.
+          I am a Front-End Developer with 2 years of experience using ReactJS
+          and TypeScript. Contact me if you would like to learn more.
         </p>
 
         <a href="mailto:fendersdtua@hotmail.com" className={styles.contactBtn}>

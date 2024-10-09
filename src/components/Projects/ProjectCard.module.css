@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #19376d;
+  max-width: 350px;
+  /* width: 100%; */
+}
+
+.projectDetail {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.skills {
+  display: flex;
+  /* justify-content: space-between; */
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skill {
+  padding: 10px 30px;
+  border-radius: 24px;
+  background-color: #0b2447;
+  font-size: 20px;
+}
+
+.links {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.links a {
+  text-decoration: none;
+  color: var(--color-text);
+  background-color: #576cbc;
+  padding: 5px 20px;
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 425px) {
+  .container {
+    width: 100%;
+  }
+}

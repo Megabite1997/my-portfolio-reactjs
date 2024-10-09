@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Tada & Shiba shop",
+    "imageSrc": "projects/tada-shiba.png",
+    "description": "This is a E-Commerce Website project that selling all things that dogs need such as Food, or Phamacy",
+    "skills": ["ReactJS", "TypeScript", "TailwindCSS", "ExpressJS", "MongoDB"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/Megabite1997/Shiba-shop-website"
+  },
+  {
+    "title": "Tindog",
+    "imageSrc": "projects/tindog2.png",
+    "description": "This website is a mock from Tinder, it for dogs dating",
+    "skills": ["HTML", "CSS"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/Megabite1997/Tindog"
+  },
+  {
+    "title": "Star Wars API",
+    "imageSrc": "projects/starwars-api.png",
+    "description": "A website for learning basic of fetching API, I use SWAPI for fetching Star Wars movies data. Can also add our own movies to the database, Firebase",
+    "skills": ["ReactJS", "TypeScript", "Firebase"],
+    "demo": "https://star-wars-api-d2532.web.app",
+    "source": "https://github.com/Megabite1997/Star-Wars-api?tab=readme-ov-file"
+  }
+]

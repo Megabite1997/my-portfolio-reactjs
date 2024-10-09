@@ -29,13 +29,6 @@ const About: FC<AboutProps> = ({}) => {
               <p>I'm a Backend Developer with 1 year experience</p>
             </div>
           </li>
-          <li className={styles.aboutItem}>
-            <img src={getImageURL("about/uiIcon.png")} alt="UI icon" />
-            <div className={styles.aboutItemText}>
-              <h3>UI Designer</h3>
-              <p>I'm a UI Designer with 1 year experience</p>
-            </div>
-          </li>
         </ul>
       </div>
     </section>

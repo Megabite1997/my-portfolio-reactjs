@@ -17,6 +17,10 @@
   color: var(--color-text);
 }
 
+.menuBtn {
+  display: none;
+}
+
 .menu {
   display: flex;
 }
@@ -27,7 +31,7 @@
   list-style: none;
 }
 
-.menuItems li a {
+.menuItems a {
   font-size: 25px;
   color: var(--color-text);
   text-decoration: none;
@@ -45,7 +49,8 @@
     margin-right: 10%;
     flex-direction: column;
     align-items: flex-end;
-    gap: 13px;
+    gap: 11px;
+    z-index: 3;
   }
 
   .menuBtn {
@@ -57,7 +62,7 @@
     display: none;
     flex-direction: column;
     align-items: center;
-    gap: 0;
+    gap: 13px;
     border-radius: 10px;
     background: rgb(25, 55, 109);
     background: linear-gradient(
@@ -67,14 +72,6 @@
     );
     padding: 24px 33px;
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
-  }
-
-  .menuItems li {
-    width: 100%;
-    padding: 10px;
-  }
-  .menuItems li:hover {
-    background-color: darkorange;
   }
 
   .menuOpen {
