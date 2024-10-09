@@ -2,7 +2,7 @@
 
 <img width="1433" alt="Screenshot 2567-10-09 at 22 12 35" src="https://github.com/user-attachments/assets/b436565f-e0e7-4588-94a8-1568dd7409de">
 
-https://tadachaipanya.com/
+https://tadachaipanya.com
 
 
 ## React + TypeScript + Vite
