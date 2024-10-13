@@ -119,3 +119,21 @@
     gap: 9px;
   }
 }
+
+@media screen and (max-width: 376px) {
+  .title {
+    font-size: 30px;
+  }
+
+  .skillImageContainer {
+    width: 100px;
+    height: 100px;
+  }
+  .skillImageContainer img {
+    width: 50px;
+  }
+
+  .skill p {
+    font-size: 20px;
+  }
+}
