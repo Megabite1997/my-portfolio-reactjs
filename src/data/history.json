@@ -9,7 +9,7 @@
       "Using Micro-Frontend concept to work with other teams",
       "Collaborated with team using Scrum"
     ],
-    "imageSrc": "history/f.png"
+    "imageSrc": "history/f.webp"
   },
   {
     "role": "Full Stack Developer",
@@ -20,7 +20,7 @@
       "Built new endpoints and middleware functions.",
       "Implemented form validation by Formik library"
     ],
-    "imageSrc": "history/24-fix.png"
+    "imageSrc": "history/24-fix.webp"
   },
   {
     "role": "Full Stack Developer",
@@ -31,6 +31,6 @@
       "Implemented authentication, authorization, and single sign-on on a web application with Microsoft on Azure.",
       "Helped create UI components"
     ],
-    "imageSrc": "history/4-ti.jpeg"
+    "imageSrc": "history/4-ti.webp"
   }
 ]

@@ -5,9 +5,7 @@ import skills from "../../data/skills.json";
 import history from "../../data/history.json";
 import { getImageURL } from "../../utils";
 
-interface ExperienceProps {}
-
-const Experience: FC<ExperienceProps> = ({}) => {
+const Experience: FC = () => {
   return (
     <section id="experience" className={styles.container}>
       <h2 className={styles.title}>Experience</h2>

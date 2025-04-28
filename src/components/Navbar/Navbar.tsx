@@ -2,9 +2,7 @@ import { FC, useState } from "react";
 import styles from "./Navbar.module.css";
 import { getImageURL } from "../../utils";
 
-interface NavbarProps {}
-
-const Navbar: FC<NavbarProps> = ({}) => {
+const Navbar: FC = () => {
   const [menuOpen, setMenuOpen] = useState<boolean>(false);
 
   return (
@@ -18,8 +16,8 @@ const Navbar: FC<NavbarProps> = ({}) => {
           className={styles.menuBtn}
           src={
             menuOpen
-              ? getImageURL("nav/closeIcon.png")
-              : getImageURL("nav/menuIcon.png")
+              ? getImageURL("nav/closeIcon.webp")
+              : getImageURL("nav/menuIcon.webp")
           }
           onClick={() => setMenuOpen((prev) => !prev)}
           alt="menu-button"

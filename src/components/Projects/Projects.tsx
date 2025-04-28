@@ -3,9 +3,7 @@ import styles from "./Projects.module.css";
 import projects from "../../data/projects.json";
 import ProjectCard from "./ProjectCard";
 
-interface ProjectsProps {}
-
-const Projects: FC<ProjectsProps> = ({}) => {
+const Projects: FC = () => {
   return (
     <section id="projects" className={styles.container}>
       <h2 className={styles.title}>Projects</h2>

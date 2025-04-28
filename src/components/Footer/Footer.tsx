@@ -2,9 +2,7 @@ import { FC } from "react";
 import styles from "./Footer.module.css";
 import { getImageURL } from "../../utils";
 
-interface FooterProps {}
-
-const Footer: FC<FooterProps> = ({}) => {
+const Footer: FC = () => {
   return (
     <footer id="contact" className={styles.container}>
       <div className={styles.text}>
@@ -13,12 +11,12 @@ const Footer: FC<FooterProps> = ({}) => {
       </div>
       <ul className={styles.links}>
         <li className={styles.link}>
-          <img src={getImageURL("contact/emailIcon.png")} alt="Email icon" />
+          <img src={getImageURL("contact/emailIcon.webp")} alt="Email icon" />
           <a href="mailto:fendersdtua@hotmail.com">fendersdtua@email.com</a>
         </li>
         <li className={styles.link}>
           <img
-            src={getImageURL("contact/linkedinIcon.png")}
+            src={getImageURL("contact/linkedinIcon.webp")}
             alt="LinkedIn icon"
           />
           <a href="https://www.linkedin.com/in/tada-chaipanya-47b849214/">
@@ -26,7 +24,7 @@ const Footer: FC<FooterProps> = ({}) => {
           </a>
         </li>
         <li className={styles.link}>
-          <img src={getImageURL("contact/githubIcon.png")} alt="Github icon" />
+          <img src={getImageURL("contact/githubIcon.webp")} alt="Github icon" />
           <a href="https://www.github.com/Megabite1997">
             github.com/Megabite1997
           </a>
