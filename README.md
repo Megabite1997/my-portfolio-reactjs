@@ -6,4 +6,4 @@
 
 https://tadachaipanya.com
 
-![image_alt](https://github.com/Megabite1997/my-portfolio-reactjs/src/assets/about/my-website.webp)
+![image_alt](https://github.com/Megabite1997/my-portfolio-reactjs/blob/6f95edc9b2103e63ae0823e41896e2877c8599b9/src/assets/about/my-website.webp)
