@@ -2,10 +2,20 @@
   display: flex;
   flex-direction: column;
   padding: 20px;
-  border-radius: 10px;
+  border-radius: 30px;
   background-color: #19376d;
   max-width: 350px;
-  /* width: 100%; */
+}
+
+.container h3 {
+  font-size: 24px;
+  color: var(--color-text);
+  margin-bottom: 10px;
+}
+
+.projectImage {
+  border-radius: 20px;
+  height: 320px;
 }
 
 .projectDetail {
@@ -17,7 +27,6 @@
 
 .skills {
   display: flex;
-  /* justify-content: space-between; */
   flex-wrap: wrap;
   gap: 10px;
 }

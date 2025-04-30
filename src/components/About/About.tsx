@@ -5,10 +5,10 @@ import { getImageURL } from "../../utils";
 const About: FC = () => {
   return (
     <section className={styles.container} id="about">
-      <h2 className={styles.title}>About</h2>
+      <h2 className={styles.title}>About Me</h2>
       <div className={styles.content}>
         <img
-          src={getImageURL("about/aboutImage.webp")}
+          src={getImageURL("hero/me_cartoon.webp")}
           alt="About Image"
           className={styles.aboutImage}
         />
@@ -16,15 +16,20 @@ const About: FC = () => {
           <li className={styles.aboutItem}>
             <img src={getImageURL("about/cursorIcon.webp")} alt="Cursor icon" />
             <div className={styles.aboutItemText}>
-              <h3>Frontend Developer</h3>
-              <p>I'm a Frontend Developer with 2 years experience</p>
+              <p>
+                I am a Full Stack Developer with over 3 years experience. I have
+                a strong background in web development, specializing in both
+                frontend and backend technologies.
+              </p>
             </div>
           </li>
           <li className={styles.aboutItem}>
             <img src={getImageURL("about/serverIcon.webp")} alt="Server icon" />
             <div className={styles.aboutItemText}>
-              <h3>Backend Developer</h3>
-              <p>I'm a Backend Developer with 1 year experience</p>
+              <p>
+                I am passionate about creating efficient and user-friendly
+                applications that solve real-world problems.
+              </p>
             </div>
           </li>
         </ul>

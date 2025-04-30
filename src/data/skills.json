@@ -1,5 +1,9 @@
 [
   {
+    "title": "JavaScript",
+    "imageSrc": "skills/javascript.png"
+  },
+  {
     "title": "ReactJS",
     "imageSrc": "skills/react.png"
   },

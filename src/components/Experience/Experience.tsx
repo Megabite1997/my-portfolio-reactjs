@@ -7,9 +7,10 @@ import { getImageURL } from "../../utils";
 
 const Experience: FC = () => {
   return (
-    <section id="experience" className={styles.container}>
-      <h2 className={styles.title}>Experience</h2>
-      <div className={styles.content}>
+    <section className={styles.container}>
+      <div id="skills" className={styles.skillsContainer}>
+        <h2 className={styles.title}>Skills</h2>
+
         <div className={styles.skills}>
           {skills.map((skill, id) => (
             <div key={id} className={styles.skill}>
@@ -20,7 +21,10 @@ const Experience: FC = () => {
             </div>
           ))}
         </div>
+      </div>
 
+      <div id="experience" className={styles.historyContainer}>
+        <h2 className={styles.title}>Experience</h2>
         <ul className={styles.history}>
           {history.map((historyItem, id) => (
             <li key={id} className={styles.historyItem}>
@@ -32,12 +36,12 @@ const Experience: FC = () => {
                 <h3>
                   {historyItem.role}, {historyItem.organization}
                 </h3>
-                <p>
-                  {historyItem.startDate} - {historyItem.endDate}
-                </p>
+                <p>{`(${historyItem.startDate} - ${historyItem.endDate})`}</p>
                 <ul>
                   {historyItem.experiences.map((experience, id) => (
-                    <li key={id}>{experience}</li>
+                    <li key={id} className={styles.experienceItem}>
+                      {experience}
+                    </li>
                   ))}
                 </ul>
               </div>

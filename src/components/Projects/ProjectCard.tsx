@@ -17,6 +17,7 @@ interface ProjectCardProps {
 const ProjectCard: FC<ProjectCardProps> = ({ id, project }) => {
   return (
     <div key={id} className={styles.container}>
+      <h3>{project.title}</h3>
       <img
         src={getImageURL(project.imageSrc)}
         alt={project.title}
@@ -24,7 +25,6 @@ const ProjectCard: FC<ProjectCardProps> = ({ id, project }) => {
       />
 
       <div className={styles.projectDetail}>
-        <h3>{project.title}</h3>
         <p>{project.description}</p>
         <div className={styles.skills}>
           {project.skills.map((skill, id) => (

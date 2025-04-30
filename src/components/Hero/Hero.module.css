@@ -39,6 +39,12 @@
   margin-bottom: 52px;
 }
 
+.contactsContainer {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
 .contactBtn {
   background-color: var(--color-primary);
   color: var(--color-text);
@@ -47,6 +53,17 @@
   font-size: 30px;
   font-weight: 600;
   padding: 17px 26px;
+}
+
+.socialBtn {
+  color: var(--color-text);
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.socialBtn:hover {
+  color: var(--color-primary);
+  text-decoration: underline;
 }
 
 .heroImg {
@@ -110,6 +127,7 @@
   }
 
   .content {
+    text-align: center;
     align-items: center;
   }
 }
