@@ -24,7 +24,7 @@ const Experience: FC = () => {
       </div>
 
       <div id="experience" className={styles.historyContainer}>
-        <h2 className={styles.title}>Experience</h2>
+        <h2 className={styles.title}>Experiences</h2>
         <ul className={styles.history}>
           {history.map((historyItem, id) => (
             <li key={id} className={styles.historyItem}>

@@ -5,8 +5,10 @@
     "startDate": "June, 2023",
     "endDate": "December, 2024",
     "experiences": [
-      "Implementing an internal insurance web application with NextJS framework",
+      "Implemented an internal insurance web application with NextJS framework",
       "Using Micro-Frontend concept to work with other teams",
+      "Used, created, and modified shared UI components to ensure consistency and reduce redundant work across teams.",
+      "Collaborated with backend developers to define data structures and HTTP methods for API integration.",
       "Collaborated with team using Scrum"
     ],
     "imageSrc": "history/f.webp"
@@ -17,8 +19,10 @@
     "startDate": "October, 2022",
     "endDate": "February, 2023",
     "experiences": [
-      "Built new endpoints and middleware functions.",
-      "Implemented form validation by Formik library"
+      "Maintained and added features to internal admin web app for managing customers, appointments, and technician assignments.",
+      "Built new coupon package feature for discounted service bundles.",
+      "Created and updated API endpoints and business logic based on requirements from product owners.",
+      "Worked across frontend and backend using ReactJS, NodeJS, and MongoDB."
     ],
     "imageSrc": "history/24-fix.webp"
   },
@@ -28,8 +32,10 @@
     "startDate": "October, 2021",
     "endDate": "September, 2022",
     "experiences": [
-      "Implemented authentication, authorization, and single sign-on on a web application with Microsoft on Azure.",
-      "Helped create UI components"
+      "Worked in a small team to maintain and enhance rikai.ch, a health-focused web platform.",
+      "Implemented authentication, authorization, and single sign-on (SSO) with Microsoft Azure.",
+      "Handled both frontend and backend tasks to support secure user flows and feature development.",
+      "Worked across frontend and backend using ReactJS, NodeJS, and MongoDB."
     ],
     "imageSrc": "history/4-ti.webp"
   }

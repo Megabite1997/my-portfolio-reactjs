@@ -33,7 +33,7 @@ const Navbar: FC = () => {
             <a href="#skills">Skills</a>
           </li>
           <li>
-            <a href="#experience">Experience</a>
+            <a href="#experience">Experiences</a>
           </li>
           <li>
             <a href="#projects">Projects</a>
